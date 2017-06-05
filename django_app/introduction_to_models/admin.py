@@ -1,6 +1,7 @@
 from django.contrib import admin
-from .models import Person, Manufacturer, Car
+from .models import Person, Player, Club, TradeInfo
 
 admin.site.register(Person)
-admin.site.register(Manufacturer)
-admin.site.register(Car)
+admin.site.register(Player)
+admin.site.register(Club)
+admin.site.register(TradeInfo)
