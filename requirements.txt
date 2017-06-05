@@ -1,0 +1,5 @@
+codegen==1.0
+Django==1.11.1
+patterns==0.3
+pytz==2017.2
+save==0.1
