@@ -28,7 +28,9 @@ class Teacher2(CommonInfo2):
     cls = models.CharField(max_length=20)
     extra_info = models.ForeignKey(
         CommonInfo2,
-        related_name='extra_students'
+        related_name='extra_students',
+        blank=True,
+        null=True,
     )
 
     def __str__(self):
